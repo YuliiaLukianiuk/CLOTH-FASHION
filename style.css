@@ -238,3 +238,117 @@ a.rollover:hover {
   background-color: #4d4c4c;
   cursor: pointer;
 }
+/* блок categoriasDestaque */
+.gallery__item-block,
+.gallery__item-block-1 {
+  position: relative;
+}
+.gallery__item-block a{
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0;
+  width: 275px;
+  height: 30px;
+  bottom: 215px;
+  left: 210px;
+  text-align: center; 
+  text-shadow: #000000 3px 0 0;
+} 
+.gallery__item--3 a,
+.gallery__item--6 a{
+  position: absolute;
+  left: 35%;
+}
+.gallery__item--4 a,
+.gallery__item--5 a{
+  position: absolute;
+  left: 10%;
+}
+.gallery__item,
+.gallery__item-1 {
+  margin: 0;
+  padding: 0;
+}
+.gallery__item:hover a{
+  opacity: 1;
+  cursor: pointer;
+  text-shadow: #595959 5px 0 0;
+} 
+.gallery__item-1:hover a {
+  opacity: 1;
+  cursor: pointer;
+}
+.gallery__item-link span{
+  font-family: 'Rajdhani', sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  text-shadow:none;
+}
+.gallery__img:hover {
+  opacity: 0.6;
+}
+.gallery__img-1, 
+.gallery__img {
+  width: 100%;
+  height: 100%;
+}
+.gallery__item-title h3{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+}
+/* grid товаров */
+.products-icon img {
+  position: relative;
+  bottom: 30px;
+  left: 680px;
+}
+.products_container {
+  width: 1280px;
+  height: 1400px;
+  margin-left: 130px;
+}
+.product-gallery {
+  display: grid;
+  grid-template-columns:300px 300px 300px 300px;
+  grid-template-rows: 450px 450px 450px;
+  grid-gap:20px;
+}
+.gallery__item {
+  margin: 0;
+  padding: 0;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  display: block; 
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #000000;
+}
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.gallery__item--3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.gallery__item--4 {
+  grid-column-start:4;
+  grid-column-end: 4;
+}
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.gallery__item--6 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
