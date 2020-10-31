@@ -119,7 +119,7 @@ button:focus {
   font-weight: 700;
   font-size: 25px;
   color: #ffffff;
-  left: 697px;
+  left: 680px;
 }
 .login {
   position: absolute;
@@ -157,17 +157,20 @@ span p{
   width: 1280px;
   height: 420px;
   margin-top: 60px;
-  margin-left: 137px;
+  margin-left: 185px;
 }
 .main-item img {
   width: 190px;
   height: 325px;
   padding-right: 15px;
 }
+.main-item:nth-child(4) {
+  padding-left: 15px;
+}
 .prev-left {
   position: absolute;
   color: #d1d1d1;
-  left: 116px;
+  left: 160px;
   top: 155px;
 }
 .prev-left i, .prev-right i{
@@ -176,7 +179,7 @@ font-size:30px;
 .prev-right {
   position: absolute;
   color: #d1d1d1;
-  right: 233px;
+  right: 175px;
   top: 155px;
 }
 .cost {
@@ -188,6 +191,7 @@ font-size:30px;
 }
 .main-product-slogan {
   position: relative;
+  left: 60px;
 }  
 .seta-left img {
   position: absolute;
@@ -206,4 +210,31 @@ font-size:30px;
   font-size: 25px;
   left: 580px;
   bottom: -8px;
+}
+a.rollover {
+background: url(./img/bg-produto-3.png);
+display: block;
+width: 185px;
+height: 325px;
+} 
+a.rollover:hover {
+  background: url(./img/bg-produto-3.2.png);
+}
+.main-item-3 p{
+  position: absolute;
+  opacity: 0;
+  font-size: 15px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  border: 1px solid;
+}
+.main-item-3:hover p{
+  opacity: 1;
+  height: 30px;
+  width: 185px;
+  bottom: 80px;
+  background-color: #4d4c4c;
+  cursor: pointer;
 }
