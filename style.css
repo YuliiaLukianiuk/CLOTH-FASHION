@@ -1,6 +1,9 @@
 main {
   background-color: #ffffff;
 }
+.baner-block {
+  width: 1600px;
+}
 .baner {
   position: relative;
   height: 16px;
@@ -47,7 +50,10 @@ main {
   font-weight: 500;
   font-size: 30px;
   top: 275px;
-  left: 190px;
+  left: 160px;
+}
+.slide-tagline {
+  letter-spacing: 5px;
 }
 .slide-tagline-1 {
   top: 385px;
@@ -77,6 +83,7 @@ main {
 }
 .vertical-slider {
   background-color: black;
+  width: 1600px;
 }
 .carousel-indicators li {
   position: relative;
@@ -111,7 +118,7 @@ main {
 button, 
 button:active, 
 button:focus {
-    outline: none;
+  outline: none;
 }
 .logo {
   position: absolute;
@@ -206,7 +213,7 @@ font-size:30px;
 .slogan p {
   position: absolute;
   font-family: 'Rajdhani', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 25px;
   left: 580px;
   bottom: -8px;
@@ -229,6 +236,7 @@ a.rollover:hover {
   text-align: center;
   color: #fff;
   border: 1px solid;
+  letter-spacing: 5px;
 }
 .main-item-3:hover p{
   opacity: 1;
@@ -255,6 +263,8 @@ a.rollover:hover {
   bottom: 215px;
   text-align: center; 
   text-shadow: #000000 3px 0 0;
+  letter-spacing: 5px;
+
 } 
 .gallery__item--1 a,
 .gallery__item--2 a{
@@ -521,4 +531,138 @@ a.rollover:hover {
 }
 .quem-container__foto-1:hover {
 opacity: 0.3;
+}
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 120px;
+  background-color: #ffffff;
+  margin-top: 245px;
+  margin-left: 130px;
+}
+
+.footer-wrap {
+display: flex;
+justify-content: space-between;
+
+}
+.footer-item-1 {
+  background-color: #000000;
+  width: 210px;
+  height: 53px;
+}
+.footer-arrow-righ {
+  width: 0;
+  height: 0;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+  border-left: 27px solid #000000;
+  margin-left: 210px;
+}
+.footer-item-1__text {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  left: 30px;
+  top: 13px;
+  letter-spacing: 5px;
+  text-shadow: #e5e5e5  1px 0 0;
+}
+.footer-item-2,
+.footer-item-3 {
+  position: absolute;
+  width: 380px;
+  height: 55px;
+  opacity: 1;
+  border: 2px solid #e5e5e5;
+}
+.footer-item-2 {
+  left: 245px;
+}
+.footer-item-3 {
+  left: 640px;
+}
+.footer-item-2__text,
+.footer-item-3__text,
+.footer-item-4__text {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  top: 13px;
+  letter-spacing: 5px;
+  text-shadow: #e5e5e5  1px 0 0;
+}
+.footer-item-2__text {
+  left: 155px;
+  color:#000000;
+}
+.footer-item-3__text {
+  left: 65px;
+  color:#d7d7d7;
+}
+.footer-item-4__text {
+  color:#595959;
+  font-weight: 700;
+  left: 45px;
+}
+.footer-item-4 {
+  position: absolute;
+  width: 215px;
+  height: 50px;
+  right: 335px;
+  background-color: #d0d0d0;
+  box-shadow: #717274 -1px 5px 3px;
+}
+.links-block {
+  width: 1600px;
+  height: 35px;
+  background-color: #000000;
+}
+.links-block-text {
+  position: relative;
+  width: 740px;
+  height: 35px;
+}
+.text-item-1,
+.text-item-2,
+.text-item-3,
+.text-item-4 {
+  position: absolute;
+  top: 5px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+}
+.text-item-1 {
+  left: 135px;
+}
+.text-item-2 {
+  left: 215px;
+}
+.text-item-3 {
+  left: 310px;
+}
+.text-item-4 {
+  left: 490px;
+}
+.links-block-icon {
+  position: relative;
+  width: 95px;
+  bottom: 30px;
+  left: 1310px;
+}
+.links-block-icon {
+  color:#ffffff;
+}
+.links-item-icon .fab{
+font-size: 20px;
+margin-right: 10px;
+}
+.fa-instagram-square {
+  border: 1px solid;
 }
