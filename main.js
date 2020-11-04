@@ -34,3 +34,13 @@ $('.class-unit-minus-3').click(function(){
    $('.class-unit-minus-3').hide();
    $('.class-unit-plus-3').show();
 });
+
+
+$('.basket-wrap, .shadow-layer').hide();
+$('.carrinho').click(function(){
+  $('.basket-wrap, .shadow-layer').show();
+});
+
+$('.total-continuar').click(function(){
+  $('.basket-wrap, .shadow-layer').hide();
+});

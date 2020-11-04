@@ -134,34 +134,36 @@ button:focus {
 }
 .login {
   position: absolute;
-  font-family:'Rajdhani', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 500;
   color: #ffffff;
   font-size: 25px;
-  right: 250px;
+  top: 5px;
+  right: 340px;
 }
 .carrinho img{
   position: absolute;
-  right: 185px;
+  right: 280px;
   height: 24px;
-  top: 5px;
+  top: 10px;
+  z-index: 21;
 }
 span p{
   position: absolute;
-  font-family:'Rajdhani', sans-serif;
-  right: 202px;
-
+  font-family: 'Rajdhani', sans-serif;
+  right: 301px;
   font-weight: 500;
   color: #000000;
+  z-index: 21;
 }
 .circle-nav {
   position: absolute;
   width: 20px;
   height: 20px;
-  right: 200px;
+  right: 300px;
   background-color: #ffffff;
-  border: 1px solid 0.7;
   border-radius: 50%;
+  z-index: 21;
 }
 .main-product-wrapper {
   display: flex;
@@ -665,16 +667,17 @@ margin-right: 10px;
 .fa-instagram-square {
   border: 1px solid;
 }
-.navigation-wrap {
+.navigation-wrap,
+.basket-wrap {
   position: absolute;
-  /* display: none; */
   width: 560px;
   height: 600px;
   background-color:#ffffff;
   z-index: 20;
   border: 3px solid #000000;
 }
-.navigation-block {
+.navigation-block,
+.basket-block {
   width: 554px;
   top: 0px;
   height: 44px;
@@ -682,7 +685,8 @@ margin-right: 10px;
   z-index: 2;
   background-color: #000000;
 }
-.navigation-block-text {
+.navigation-block-text,
+.basket-block-text {
   position: absolute;
   font-size: 20px;
   color: #ffffff;
@@ -691,6 +695,9 @@ margin-right: 10px;
   left: 205px;
   top: 10px;
   letter-spacing: 1px;
+}
+.basket-block-text {
+  left: 20px;
 }
 .navigation-block-img img {
   position: absolute;
@@ -867,4 +874,153 @@ margin-right: 10px;
   top: 254px;
   background-color: #ffffff;
   z-index: 3;
+}
+.basket-wrap {
+  right: 80px;
+}
+.goods-1,
+.goods-2 {
+  position: absolute;
+  top: 44px;
+  width: 554px;
+  height: 120px;
+  border: 1px solid #b1b1b1;
+}
+.goods-2 {
+  top: 164px;
+}
+.goods-foto,
+.goods-foto-2 {
+  position: absolute;
+  width: 70px;
+  height: 120px;
+  top: 0;
+}
+.goods-text,
+.goods-text-2 {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  left: 75px;
+  top: 5px;
+}
+.goods-close,
+.goods-close-2 {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  left: 327px;
+  top: 5px;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 0px 7px 0px 7px;
+}
+.goods-item-1,
+.goods-item-1_2 {
+  position: absolute;
+  top: 35px;
+  left: 75px;
+  width: 23px;
+  height: 22px;
+  background-color: #000000;
+}
+.goods-item-2 p,
+.goods-item-4,
+.goods-item-2_2 p,
+.goods-item-4_2 {
+  position: absolute;
+  top: 86px;
+  left: 75px;
+  width: 23px;
+  height: 23px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #000000;
+}
+.goods-item-3,
+.goods-item-3_2 {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  top: 86px;
+  left: 104px;
+  width: 37px;
+  height: 23px;
+  text-align: center;
+  background-color: #d1d1d1;
+}
+.goods-item-4  {
+  left: 146px;
+}
+.goods-cost,
+.goods-cost-2 {
+  position: absolute;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  top: 86px;
+  left: 304px;
+  font-size: 17px;
+}
+.total-continuar {
+  position: absolute;
+  width: 205px;
+  bottom: 0;
+  height: 70px;
+  padding-top: 9px;
+}
+.total-continuar p {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  color: #b3b3b3;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+.total-checkout {
+  position: absolute;
+  width: 350px;
+  bottom: 0;
+  height: 70px;
+  left: 205px;
+  padding-left: 15px;
+  padding-top: 15px;
+  background-color: #000000;
+}
+.total-checkout p{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+}
+.total-checkout img {
+  position: absolute;
+  left: 136px;
+  bottom: 28px;
+  width: 11px;
+}
+.total-block {
+  position: absolute;
+  bottom: 70px;
+  width: 554px;
+  height: 40px;
+  background-color: #dcdcdc;
+}
+.text-1,
+.text-2 {
+  position: absolute;
+  top: 5px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+}
+.text-1 {
+  left: 10px;
+}
+.text-2 {
+  left: 285px;
+  font-weight: 300;
 }
