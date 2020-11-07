@@ -36,7 +36,8 @@ $('.class-unit-minus-3').click(function(){
 });
 
 
-$('.basket-wrap, .shadow-layer').hide();
+$('.basket-wrap').hide();
+$('.shadow-layer').hide();
 $('.carrinho').click(function(){
   $('.basket-wrap, .shadow-layer').show();
 });

@@ -258,7 +258,8 @@ a.rollover:hover {
   opacity: 1;
   height: 30px;
   width: 185px;
-  bottom: 80px;
+  top: 295px;
+  margin: 0;
   background-color: #4d4c4c;
   cursor: pointer;
 }
