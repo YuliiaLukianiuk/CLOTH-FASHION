@@ -8,7 +8,7 @@ $(function () {
   });
 });
 
-
+//меню
 $('.navigation-wrap, .shadow-layer').hide();
 $('.navbar-btn').click(function(){
     $('.navigation-wrap, .shadow-layer').show();
@@ -18,7 +18,7 @@ $('.navigation-block-img').on('click', function(){
   $(this).closest('.navigation-wrap').hide();
   $("div.shadow-layer").hide();
 });
-
+//выпадающий список
 $('.category-block-wrap').hide();
 $('.class-unit-minus-3').hide();
 $('.class-unit-plus-3').click(function(){
@@ -35,13 +35,14 @@ $('.class-unit-minus-3').click(function(){
    $('.class-unit-plus-3').show();
 });
 
-
+//открытие блока корзина
 $('.basket-wrap').hide();
 $('.shadow-layer').hide();
 $('.carrinho').click(function(){
   $('.basket-wrap, .shadow-layer').show();
 });
-
 $('.total-continuar').click(function(){
   $('.basket-wrap, .shadow-layer').hide();
 });
+
+//слайдер
