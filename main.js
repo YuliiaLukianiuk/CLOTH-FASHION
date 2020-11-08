@@ -45,4 +45,3 @@ $('.total-continuar').click(function(){
   $('.basket-wrap, .shadow-layer').hide();
 });
 
-//слайдер
